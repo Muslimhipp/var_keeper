@@ -1,0 +1,8 @@
+on: push
+jobs:
+  welcome:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Hello new commits"
+
+
